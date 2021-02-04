@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' 
+rel='stylesheet' type='text/css'>
+<style>
+/* BUTTON STYLES */
+.button {
+  background-color: #2caae2;
+  border: none;
+  color: white;
+  height: 100px;
+  width: 410px;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  margin: 0px 0px 35px 35px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+/* BUTTON SIZES */
+.btn-large {
+  height: 100px;
+  width: 410px;
+}
+
+.btn-list {
+  height: 100px;
+  width: 380px;
+}
+
+.btn-menu {
+  height: 140px;
+  width: 180px;
+}
+
+.btn-pop {
+  height: 100px;
+  width: 330px;
+}
+
+/* BUTTON COLOURS */
+#btn-confirm {
+  background-color: #40ad48 !important;
+}
+
+#btn-deny {
+  background-color: #d12229 !important;
+}
+
+#btn-inactive {
+  background-color: #dcdcdc !important;
+}
+</style>
+</head>
+<body>
+
+<input type="button" class="button btn-large" id="btn-confirm" value="YES">
+<input type="button" class="button btn-list" id="btn-inactive" value="YES">
+<input type="button" class="button btn-menu" id="btn-deny" value="NO">
+<input type="button" class="button btn-pop" value="MAYBE">
+
+</body>
+</html>
